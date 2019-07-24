@@ -1,5 +1,6 @@
 
 const handleFormSubmit = event => {
+  event.preventDefault()
   const githubHandle = event.target.username.value;
 
   githubApi.get(githubHandle).then(repos => {
