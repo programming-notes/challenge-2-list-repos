@@ -1,6 +1,27 @@
-.repo-list .repo {
+/* .repo-list .repo {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 0 10px 6px;
     margin: 10px 0;
+} */
+
+
+.repo-title {
+    cursor: pointer;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.repo-description {
+    margin-top: 0;
+}
+
+.stats-icons {
+    display: flex;
+}
+
+.stats-icons > * {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
 }
